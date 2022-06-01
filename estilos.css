@@ -1,0 +1,55 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-auto-rows: auto;
+  
+    align-items: center;
+    text-align: center;
+    border-bottom: 4px solid black;
+    background: white;
+  }
+  
+@media screen and (max-width: 900px) {
+    nav {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      grid-gap: 1em;
+        }
+  }  
+  
+  .1 {
+    grid-column: 1;
+  }
+  
+  .2 {
+    grid-column: 2;
+  }
+  
+  
+  
+  .3 {
+    grid-column: 4;
+  }
+  
+  .4 {
+    grid-column: 5;
+  }
+  
+  .navLinks {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navLinks:hover {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1em 1em;
+  }
+  
+  #twist {
+    color: blue;
+  }
